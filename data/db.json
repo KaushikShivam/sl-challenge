@@ -1,8 +1,16 @@
 {
   "cards": [
     {
+      "id": "5ce27b5b89230f002e13f606",
+      "name": "Duo",
+      "imageUrl": "https://static.streamloots.com/e19c7bf6-ca3e-49a8-807e-b2e9a1a47524/703ea030-8527-4a17-bd6f-23763eabfec9.png",
+      "count": {
+        "total": 0
+      }
+    },
+    {
       "id": "5ce27b5b89230f002e13f607",
-      "name": "little",
+      "name": "My little pet",
       "imageUrl": "https://static.streamloots.com/e19c7bf6-ca3e-49a8-807e-b2e9a1a47524/9f9e1020-55fa-445b-a68d-e8c9ebda55be.png",
       "count": {
         "total": 0
@@ -84,6 +92,14 @@
       "id": "5ce27b5b89230f002e13f611",
       "name": "Big discount!",
       "imageUrl": "https://static.streamloots.com/e19c7bf6-ca3e-49a8-807e-b2e9a1a47524/d8c33a79-89d6-42e5-a820-a4a1c917d32f.png",
+      "count": {
+        "total": 0
+      }
+    },
+    {
+      "id": "5ce27b5b89230f002e13f612",
+      "name": "Dedicated tweet",
+      "imageUrl": "https://static.streamloots.com/e19c7bf6-ca3e-49a8-807e-b2e9a1a47524/5241b58c-1473-419b-af1a-6ccefae3c5d3.png",
       "count": {
         "total": 0
       }
@@ -442,7 +458,7 @@
     },
     {
       "id": "5ce27b5b89230f002e13f63f",
-      "name": "Let's dance!",
+      "name": "Let's dance!!!",
       "imageUrl": "https://static.streamloots.com/e19c7bf6-ca3e-49a8-807e-b2e9a1a47524/adfc4bbf-adb0-41a5-8259-f84ccf93923b.png",
       "count": {
         "total": 0

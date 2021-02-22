@@ -1,0 +1,30 @@
+.Navbar {
+  height: $nav-height;
+  background-color: $color-secondary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  &__search {
+    width: 50rem;
+    height: 3.5rem;
+    background: #41414d;
+    border: none;
+    padding: 0 2rem;
+    border-radius: 5px;
+    color: $color-white;
+
+    @include respond(tab-port) {
+      width: 90%;
+    }
+
+    &:focus {
+      border: none;
+      outline: none;
+    }
+  }
+}

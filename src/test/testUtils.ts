@@ -1,5 +1,5 @@
 import { initial_state } from './../state/reducers/cards.reducer';
-import { ShallowWrapper } from 'enzyme';
+import { ReactWrapper, ShallowWrapper } from 'enzyme';
 import { createStore } from 'redux';
 import { bindMiddlewares } from './../state';
 import rootReducer, { RootState } from './../state/reducers';
@@ -31,6 +31,9 @@ export const dummyCards = [
   },
 ];
 
-export const findByTestAttr = (wrapper: ShallowWrapper, val: string) => {
+export const findByTestAttr = (
+  wrapper: ShallowWrapper | ReactWrapper,
+  val: string
+) => {
   return wrapper.find(`[data-test="${val}"]`);
 };

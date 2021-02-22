@@ -1,0 +1,21 @@
+.CardEdit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+
+  &__input {
+    margin-bottom: 2rem;
+  }
+
+  input,
+  button {
+    width: 100%;
+    height: 4rem;
+    padding: 1rem;
+  }
+
+  &__error {
+    color: red;
+  }
+}

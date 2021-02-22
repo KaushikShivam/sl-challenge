@@ -1,0 +1,29 @@
+.Cards {
+  max-width: 114rem;
+  margin: 0 auto;
+
+  &__feed {
+    margin-top: $nav-height;
+    padding: $grid-gap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: $grid-gap;
+    row-gap: $grid-gap;
+
+    @include respond(tab-land) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include respond(tab-port) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include respond(phone) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  &__error {
+    color: $color-error;
+  }
+}

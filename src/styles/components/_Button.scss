@@ -1,0 +1,16 @@
+.Button {
+  background-color: transparent;
+  outline: none;
+  border: $border-white;
+  padding: 5px 10px;
+  color: $color-white;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &:hover,
+  &:active {
+    color: $color-secondary;
+    background-color: $color-white;
+    border: $border-dark;
+  }
+}
